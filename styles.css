@@ -1,0 +1,46 @@
+.business-card {
+    position: center;
+    display: inline-block;
+    background-color: #f0ffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.card-background {
+    max-width: 100%; /* Adjust the width as needed */
+    max-height: 250px; /* Optional: Adjust the height as needed */
+    border-radius: 10px;
+}
+
+
+.details {
+    position: center; /* Change from absolute to relative */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+    width: 90%;
+    text-align: center;
+    z-index: 1; /* Set a higher z-index to ensure it's above the image */
+}
+
+h1 {
+    color: #333;
+    margin-top: 0; /* Add margin-top to separate the name from the image */
+}
+
+p {
+    color: #666;
+    margin: 5px 0;
+}
